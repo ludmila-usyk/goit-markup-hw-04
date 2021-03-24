@@ -10,6 +10,7 @@ html {box-sizing: border-box;}
     --bg-color: #2F303A;
     --black-color: #212121;
     --button-color: #F5F4FA;
+    --border-color: #AFB1B8;
 }
 
 body {
@@ -448,4 +449,18 @@ flex-wrap: wrap;
 }
 .portfolio-list {
     padding: 20px 24px;
+}
+
+.customers-list:not(:last-child) {
+    margin-right: 30px;
+}
+.customers {
+    display: flex;
+    flex-wrap: wrap;
+}
+.customers .customers-list {
+    min-width: 170px;
+    height: 90px;
+    border: 1px solid;
+    border-radius: 4px;
 }
