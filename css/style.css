@@ -62,7 +62,7 @@ a {
     margin-right: auto;
 }
 
-.main-li::before {
+/* .main-li::before {
     content: "";
     display: block;
     height: 120px;
@@ -71,8 +71,8 @@ a {
     background-position: center;
     background-color: var(--button-color);
     border-radius: 4px;
-}
-.icon-antenna::before {
+} */
+/* .icon-antenna::before {
     background-image: url(../images-01/антена.svg);
 padding-top: 25px;
 padding-bottom: 25px;
@@ -95,12 +95,6 @@ margin-bottom: 30px;
 padding-top: 25px;
 padding-bottom: 25px;
 margin-bottom: 30px;
-}
-/* .icon-letter::before {
-    background-image: url(../images-01/letter.svg);
-}
-.icon-phone::before {
-    background-image: url(../images-01/phone.svg);
 } */
 
 .logo {
@@ -350,13 +344,6 @@ li {
     background-repeat: no-repeat;
     background-position: center;
     background-color: var(--white-color);
-}
-.icon-letter::before {
-    background-image: url(../images-01/letter.svg);
-}
-
-.icon-phone::before {
-    background-image: url(../images-01/phone.svg);
 }
 
 .contact {
