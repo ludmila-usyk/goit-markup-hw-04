@@ -464,3 +464,6 @@ flex-wrap: wrap;
     border: 1px solid;
     border-radius: 4px;
 }
+.icon:hover {
+    fill: var(--accent-color);
+}
