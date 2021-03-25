@@ -458,10 +458,11 @@ flex-wrap: wrap;
     display: flex;
     flex-wrap: wrap;
 }
-.customers .customers-list {
-    min-width: 170px;
+
+.icon {
+    width: 170px;
     height: 90px;
-    border: 1px solid;
+    border: 1px solid #AFB1B8;
     border-radius: 4px;
 }
 .icon:hover {
