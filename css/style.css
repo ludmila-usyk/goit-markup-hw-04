@@ -41,9 +41,10 @@ a {
     background-color: var(--bg-color);
     padding-top: 60px;
     padding-bottom: 60px;
+    display: flex;
 }
 
-    button:hover {
+button:hover {
     background-color: var(--accent-color);
      cursor: pointer;
      color: var(--button-color);
@@ -101,6 +102,7 @@ li {
 }
 .icon-mail-tell {
     fill: var(--border-color);
+    margin-right: 10px;
 }
 
 .hero-team {
@@ -119,9 +121,14 @@ li {
     margin-bottom: 30px;
     padding-bottom: 40px;
 }
-/* .advantage-icon{
-
-} */
+.advantage-icon {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--button-color);
+}
 
 .advantage {
     font-weight: bold;
@@ -459,8 +466,12 @@ flex-wrap: wrap;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-
 }
+.customers-list:hover .icon,
+.customers-list:focus .icon {
+    fill: var(--button-color);
+}
+
 .gallery {
     display: flex;
     justify-content: center;
@@ -481,16 +492,13 @@ flex-wrap: wrap;
     background-color: var(--white-color);
     cursor: pointer;
     fill: var(--accent-color);
-
 }
-.customers-list:hover {
+/* .customers-list:hover {
     background-color: var(--white-color);
     cursor: pointer;
-}
-.other {
-    display: flex;
-}
-.footer_social {
+} */
+
+.footer-social {
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
