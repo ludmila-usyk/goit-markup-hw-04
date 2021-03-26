@@ -62,41 +62,6 @@ a {
     margin-right: auto;
 }
 
-/* .main-li::before {
-    content: "";
-    display: block;
-    height: 120px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: var(--button-color);
-    border-radius: 4px;
-} */
-/* .icon-antenna::before {
-    background-image: url(../images-01/антена.svg);
-padding-top: 25px;
-padding-bottom: 25px;
-margin-bottom: 30px;
-}
-.icon-clock::before {
-    background-image: url(../images-01/часы.svg);
-padding-top: 25px;
-padding-bottom: 25px;
-margin-bottom: 30px;
-}
-.icon-diagram::before {
-    background-image: url(../images-01/график.svg);
-padding-top: 25px;
-padding-bottom: 25px;
-margin-bottom: 30px;
-}
-.icon-astronaut::before {
-    background-image: url(../images-01/космонавт.svg);
-padding-top: 25px;
-padding-bottom: 25px;
-margin-bottom: 30px;
-} */
-
 .logo {
      color: var(--white-color);
 }
@@ -131,6 +96,13 @@ li {
     color: var(--grey-light-color);
     display: block;
 }
+.mail-tell:hover .icon-mail-tell {
+    fill:var(--accent-color);
+}
+.icon-mail-tell {
+    fill: var(--border-color);
+}
+
 .hero-team {
     font-size: 44px;
     line-height: 1.36;
@@ -147,6 +119,10 @@ li {
     margin-bottom: 30px;
     padding-bottom: 40px;
 }
+/* .advantage-icon{
+
+} */
+
 .advantage {
     font-weight: bold;
     font-size: 14px;
@@ -203,7 +179,7 @@ li {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--grey-light-color);
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     text-align: center;
 }
 .adress {
@@ -322,7 +298,35 @@ li {
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 70px;
+}
+.social-icons .icon{
+ width: 20px;
+ height: 20px;
+fill: var(--border-color);
+}
+.social-icons-link:hover .icon,
+.social-icons-link:focus .icon {
+    fill: var(--white-color);
+    background-color: var(--accent-color);
+    color: var(--border-color);
+}
+
+.social-icons {
+    margin-top: 16px;
+    display: inline-flex;
+}
+.social-icons-link {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: white;
+}
+.social-icons-item + .social-icons-item {
+    margin-left: 10px;
 }
 
 .site-nav {
@@ -429,6 +433,8 @@ flex-wrap: wrap;
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background-color: var(--white-color);
+    text-align: center;
+    padding-bottom: 30px;
 }
 .team-list {
     margin: 0;
@@ -441,17 +447,54 @@ flex-wrap: wrap;
 .customers-list:not(:last-child) {
     margin-right: 30px;
 }
-.customers {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.icon {
+.customers-list {
     width: 170px;
     height: 90px;
     border: 1px solid #AFB1B8;
+    box-sizing: border-box;
     border-radius: 4px;
 }
-.icon:hover {
+
+.customers {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+}
+.icon-client {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+    fill: var(--border-color);
+    align-items: center;
+    justify-content: center;
+}
+
+.customers-list:hover .icon {
+    background-color: var(--white-color);
+    cursor: pointer;
     fill: var(--accent-color);
+
+}
+.customers-list:hover {
+    background-color: var(--white-color);
+    cursor: pointer;
+}
+.other {
+    display: flex;
+}
+.footer_social {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
 }
