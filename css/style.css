@@ -41,10 +41,8 @@ a {
     background-color: var(--bg-color);
     padding-top: 60px;
     padding-bottom: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
+
 
 button:hover {
     background-color: var(--accent-color);
@@ -131,6 +129,14 @@ li {
     justify-content: center;
     background-color: var(--button-color);
 }
+.visually-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: var(--button-color);
+}
 
 .advantage {
     font-weight: bold;
@@ -188,7 +194,6 @@ li {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--grey-light-color);
-    /* margin-bottom: 30px; */
     text-align: center;
 }
 .adress {
@@ -319,25 +324,25 @@ fill: var(--border-color);
     fill: var(--white-color);
     background-color: var(--accent-color);
     color: var(--border-color);
+    border-radius: 50%;
 }
 
 .social-icons {
     margin-top: 16px;
     display: inline-flex;
 }
-.social-icons-link {
+/* .social-icons-link {
     display: flex;
     justify-self: center;
     align-items: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1); */
 }
-.social-icons-item + .social-icons-item {
+.social-icons-link + .social-icons-link {
     margin-left: 10px;
 }
-
 .site-nav {
     display: flex;
     }
@@ -492,6 +497,8 @@ flex-wrap: wrap;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
 .icon {
