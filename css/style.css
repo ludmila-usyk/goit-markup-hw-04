@@ -46,7 +46,6 @@ a {
     padding-bottom: 60px;
 }
 
-
 button:hover {
     background-color: var(--accent-color);
      cursor: pointer;
@@ -329,6 +328,10 @@ fill: var(--border-color);
     fill: var(--white-color);
 }
 
+.text .icon {
+    fill: var(--white-color);
+}
+
 .social-icons-link {
     display: inline-flex;
     align-items: center;
@@ -351,7 +354,7 @@ fill: var(--border-color);
 
 .site-nav {
     display: flex;
-    }
+}
 
 .site-nav-item {
     font-family: Roboto;
@@ -534,6 +537,3 @@ flex-wrap: wrap;
     text-transform: uppercase;
     color: var(--white-color);
 }
-.footer-main {
-    display: flex;
-} 
