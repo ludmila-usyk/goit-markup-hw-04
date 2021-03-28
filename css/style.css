@@ -21,6 +21,9 @@ a {
     text-decoration: none;
 }
 .logo-page {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -31,7 +34,7 @@ a {
 }
 
 .logo {
-        margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .hidden {
@@ -97,7 +100,8 @@ li {
     color: var(--grey-light-color);
     display: block;
 }
-.mail-tell:hover .icon-mail-tell {
+.mail-tell:hover .icon-mail-tell,
+.mail-tell:focus .icon-mail-tell {
     fill:var(--accent-color);
 }
 .icon-mail-tell {
@@ -134,6 +138,9 @@ li {
     align-items: center;
     justify-content: center;
     background-color: var(--button-color);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .advantage {
@@ -316,6 +323,12 @@ width: 20px;
 height: 20px;
 fill: var(--border-color);
 }
+
+.social-icons-link:hover .icon,
+.social-icons-link:focus .icon {
+    fill: var(--white-color);
+}
+
 .social-icons-link {
     display: inline-flex;
     align-items: center;
@@ -327,9 +340,10 @@ fill: var(--border-color);
 .social-icons-link:hover,
 .social-icons-link:focus {
     background-color: var(--accent-color);
-    color: var(--border-color);
+    fill: var(--white-color);
     border-radius: 50%;
 }
+
 .social-icons {
     margin-top: 16px;
     display: inline-flex;
@@ -361,7 +375,7 @@ fill: var(--border-color);
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-     margin-left: auto;
+    margin-left: auto;
 }
 .main-nav {
     display: flex;
@@ -405,7 +419,7 @@ fill: var(--border-color);
     box-sizing: border-box;
     background: var(--white-color);
 }
-.team-item-list:hover,
+.team-it-list:hover,
 .team-item-list:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
                 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -472,6 +486,10 @@ flex-wrap: wrap;
     box-sizing: border-box;
     border-radius: 4px;
 }
+.customers-list:hover,
+.customers-list:focus {
+    border-color: var(--accent-color);
+}
 
 .customers {
     display: flex;
@@ -501,10 +519,11 @@ flex-wrap: wrap;
     justify-content: center;
 }
 
-.customers-list:hover .icon {
-    background-color: var(--white-color);
-    cursor: pointer;
-    fill: var(--accent-color);
+.icon-client:hover .icon,
+.icon-client:focus .icon {
+        background-color: var(--white-color);
+        cursor: pointer;
+        fill: var(--accent-color);
 }
 
 .footer-social {
@@ -517,5 +536,4 @@ flex-wrap: wrap;
 }
 .footer-main {
     display: flex;
-    justify-content: start;
 } 
