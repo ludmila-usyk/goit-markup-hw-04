@@ -49,6 +49,7 @@ a {
     display: flex;
 }
 
+
 button:hover {
     background-color: var(--accent-color);
      cursor: pointer;
@@ -333,6 +334,10 @@ fill: var(--border-color);
 
 .text .icon {
     fill: var(--white-color);
+}
+.text {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
 }
 
 .social-icons-link {
