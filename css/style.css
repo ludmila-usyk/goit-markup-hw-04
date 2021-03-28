@@ -45,6 +45,9 @@ a {
     padding-top: 60px;
     padding-bottom: 60px;
 }
+.test {
+    display: flex;
+}
 
 button:hover {
     background-color: var(--accent-color);
