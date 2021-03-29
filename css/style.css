@@ -307,10 +307,6 @@ li {
     padding: 94px 0 94px 0;
 }
 
-.s-link {
-    color: var(--accent-color);
-}
-
 .link {
     display: flex;
     align-items: center;
@@ -406,12 +402,11 @@ fill: var(--border-color);
     padding-bottom: 94px;
 }
 
-.gallery:not(:last-child) {
-    margin-right: 30px;
-}
-
 .site-nav-item:not(:last-child) {
     margin-right: 50px;
+}
+.footer .logo-page {
+    margin-bottom: 20px;
 }
 
 .main-li:not(:last-child) {
