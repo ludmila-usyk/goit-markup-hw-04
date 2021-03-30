@@ -296,8 +296,8 @@ li {
     background-color: var(--accent-color);
     color: var(--white-color);
 }
-.team-item-list:hover .list,
-.team-item-list:focus .list {
+.team-item-list .list:hover,
+.team-item-list .list:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
