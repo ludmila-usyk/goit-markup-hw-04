@@ -110,6 +110,7 @@ li {
 .icon-mail-tell {
     fill: var(--border-color);
     margin-right: 10px;
+    display: inline-flex;
 }
 
 .hero-team {
@@ -286,13 +287,20 @@ li {
     letter-spacing: 0.03em;
     color: var(--black-color);
 }
-.button-gallery:hover,
-.button-gallery:focus {
-    background: var(--accent-color);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-    0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+.button-gallery .button-gallery-item:hover,
+.button-gallery .button-gallery-item:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+      0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
     border-radius: 4px;
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+.team-item-list:hover .list,
+.team-item-list:focus .list {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .button-gallery:not(:last-child) {
@@ -311,6 +319,10 @@ li {
 .button-all {
     background-color: var(--accent-color);
     color: var(--white-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 
 }
 .occupation-part {
@@ -437,7 +449,6 @@ fill: var(--border-color);
 .tech {
     padding-bottom: 94px;
 }
-
 .team-item-list {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
@@ -447,16 +458,11 @@ fill: var(--border-color);
     background: var(--white-color);
 }
 
-.team-item-list:hover,
-.team-item-list:focus {
+.team-item-list:hover .list,
+.team-item-list:focus .list {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-                0px 4px 4px rgba(0, 0, 0, 0.06),
-                1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.team-item-list:hover,
-.team-item-list:focus {
-    cursor: pointer;
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .team-item-list:nth-child(3n) {
