@@ -53,8 +53,8 @@ a {
 
 button:hover {
     background-color: var(--accent-color);
-     cursor: pointer;
-     color: var(--button-color);
+cursor: pointer;
+    color: var(--button-color);
 }
 .hero {
     background: var(--bg-color);
@@ -63,7 +63,7 @@ button:hover {
 .overlay {
     max-width: 1600px;
     background-position: top left;
-    /* height: 600px; */
+    margin: 0 auto;
     background-image: 
         linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
         url(../images-01/bg-i.jpg);
@@ -72,7 +72,7 @@ button:hover {
 }
 
 .logo {
-     color: var(--white-color);
+    color: var(--white-color);
 }
 .logo-heder {
     color: var(--black-color);
@@ -503,7 +503,6 @@ flex-wrap: wrap;
     border-radius: 0px 0px 4px 4px;
     background-color: var(--white-color);
     text-align: center;
-    padding-bottom: 30px;
 }
 .team-list {
     margin: 0;
@@ -570,6 +569,9 @@ flex-wrap: wrap;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--white-color);
+}
+.footer .mail-tell {
+    display: list-item;
 }
 .address-part {
     margin-right: 70px;
