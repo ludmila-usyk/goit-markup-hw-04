@@ -193,6 +193,30 @@ li {
     padding-left: 94px;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.team-item-occupation {
+    position: relative;
+}
+
+.label {
+    font-size: 14px;
+    line-height: 1.14;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    color: var(--white-color);
+    background-color: rgba(47, 48, 58, 0.8);
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
 .team {
     font-weight: 500;
     font-size: 16px;
